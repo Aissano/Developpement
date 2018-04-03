@@ -1,0 +1,10 @@
+package testservice;
+
+import java.util.ArrayList;
+
+public class MessageBDD {
+	static ArrayList<MessageBean> maListe = new ArrayList<MessageBean>();
+	// TODO Auto-generated method stub
+	static getMessages (MessageBean message) {
+
+	}

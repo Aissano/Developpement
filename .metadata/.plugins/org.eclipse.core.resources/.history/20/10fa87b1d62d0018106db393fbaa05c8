@@ -1,0 +1,11 @@
+package bobo;
+
+public class PartieDebean {
+	private JoueurDean j1, j2;
+	
+  private int PartieEncours;
+
+
+	
+}
+}

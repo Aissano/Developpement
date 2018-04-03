@@ -1,0 +1,21 @@
+package bobo;
+
+public class De {
+
+	private int value;
+	public int getLancer() {
+		return value;
+
+	}
+	public void setLancer(int value) {
+		this.value = value;
+
+	}
+
+	public lancer (){
+
+	}
+}
+
+
+

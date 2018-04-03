@@ -1,0 +1,28 @@
+package bobo;
+
+import javax.annotation.processing.ProcessingEnvironment;
+
+public class JoueurDean {
+	private String prenom;
+	private int scorepartie;
+	private GobeletDeBean scorepartie;
+
+	public JoueurDean(ProcessingEnvironment string); {
+
+		prenom = new JoueurDeBean();
+
+	}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+

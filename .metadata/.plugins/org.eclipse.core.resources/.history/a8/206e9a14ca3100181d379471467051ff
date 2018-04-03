@@ -1,0 +1,48 @@
+package testservice;
+
+import java.util.ArrayList;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+
+import com.google.gson.Gson;
+
+@Path("/Webservice")
+
+public class TchatService {
+	private static final int InputStreamReader = 0;
+
+	private Object monStringJson;
+	private int String;
+	private Gson gson;
+
+	@Path("/getMessages")
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public Response getMessages(MessageBean message) {
+		@SuppressWarnings("unused")
+		ArrayList<MessageBean> maListe = new ArrayList<MessageBean>();
+		Gson gson;
+		return Response.status(200).entity(gson.toJson("message")).build();
+
+	}
+
+	@POST
+	@Path("/sendMessages")
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public void sendMessages(String recu) {
+		System.out.println(recu);
+		Gson gson = new Gson();
+		if (recu == null || recu.length() == 0) {
+
+		} else {
+
+		 {
+			}
+

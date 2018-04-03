@@ -1,0 +1,15 @@
+package bobo1;
+
+import bobo.JoueurDean;
+
+public class PartieBean2 {
+
+	public static final int NBR_TOUR = 10;
+
+	public static final int SCORE_A_ATTEINDRE = 7*3;
+
+	;
+}
+
+
+}

@@ -1,0 +1,24 @@
+package bobo;
+
+public class DePipe {
+
+	public DePipe(Boolean true); {
+
+		this.value = value;
+	}
+
+	private int value;
+	public int getvalue() {
+		return value;
+
+	}
+	public void setvalue(int value) {
+		this.value = value;
+
+	}
+
+	public void lancer (){
+
+		value = 0;
+
+	}

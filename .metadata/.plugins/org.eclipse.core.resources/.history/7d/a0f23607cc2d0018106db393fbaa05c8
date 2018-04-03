@@ -1,0 +1,9 @@
+package bobo;
+
+import java.util.Random;
+
+public class GobeletBean {
+	public class DeBean {
+
+	}
+}

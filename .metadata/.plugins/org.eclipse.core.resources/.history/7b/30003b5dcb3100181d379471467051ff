@@ -1,0 +1,9 @@
+package testservice;
+
+import java.util.ArrayList;
+
+public class MessageBean {
+
+	public static final ArrayList<MessageBean> message = new ArrayList();
+
+}

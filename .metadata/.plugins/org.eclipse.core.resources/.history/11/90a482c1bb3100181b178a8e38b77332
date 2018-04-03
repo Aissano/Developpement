@@ -1,0 +1,12 @@
+package testservice;
+
+import com.google.gson.Gson;
+
+public class TchatService {
+	public static void getMessages(MessageBean message) {
+
+		Gson gson = new Gson();
+
+	}
+
+}

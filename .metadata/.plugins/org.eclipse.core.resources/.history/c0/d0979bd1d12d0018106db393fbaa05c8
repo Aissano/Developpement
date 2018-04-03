@@ -1,0 +1,26 @@
+package bobo;
+
+public class JoueurDean {
+	private JoueurDean prenom, Scorepartie,gobelet;
+
+	
+}
+	public JoueurDean(JoueurDean prenom, JoueurDean scorepartie, JoueurDean gobelet) {
+		super();
+		this.prenom = prenom;
+		Scorepartie = scorepartie;
+		this.gobelet = gobelet;
+	
+
+	
+
+	}
+
+	
+
+
+}
+
+
+
+

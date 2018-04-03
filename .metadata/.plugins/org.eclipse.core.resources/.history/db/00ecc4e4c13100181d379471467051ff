@@ -1,0 +1,7 @@
+package testservice;
+
+public class MessageBean {
+
+	public static final Class message = null;
+
+}

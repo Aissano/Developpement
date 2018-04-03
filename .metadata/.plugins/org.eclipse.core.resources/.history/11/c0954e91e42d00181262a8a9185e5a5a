@@ -1,0 +1,101 @@
+package bobo;
+
+public class JoueurDean {
+	private String prenom;
+	private int scorePartie;
+	private GobeletBean gobelet;
+
+
+	public JoueurDean(String prenom) {
+		this.prenom = prenom;
+		gobelet = new GobeletBean();
+	}
+
+	public void lancer() {
+		gobelet.lancer();
+		if(gobelet.getScore()>=7) {
+			ajouter1Pt();
+		}
+	}
+
+	public void ajouter1Pt() {
+		scorePartie++;
+	}
+
+	/////////////////////////////////////////////////////////
+	/////////
+
+
+	public String getPrenom() {
+		return prenom;
+	}
+
+
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+
+
+	public int getScorePartie() {
+		return scorePartie;
+	}
+
+
+	public void setScorePartie(int scorePartie) {
+		this.scorePartie = scorePartie;
+	}
+
+
+	public GobeletBean getGobelet() {
+		return gobelet;
+	}
+
+
+	public void setGobelet(GobeletBean gobelet) {
+		this.gobelet = gobelet;
+	}
+
+
+
+
+
+
+}
+
+//	public JoueurDean(); {
+//
+//		prenom = new JoueurDeBean();
+//
+//	}
+//	public JoueurDean(); {
+//
+//		scorepartie = new JoueurDeBean();
+//	}
+//
+//	public JoueurDean(String prenom) {
+//
+//		this.prenom = prenom;
+//	}
+//	public JoueurDean(int scorepartie) {
+//
+//		this.scorepartie = scorepartie;
+//	}
+//
+//	public JoueurDean(); {
+//
+//		gobelet = new JoueurDeBean();
+//
+//
+//
+//	}
+//	public JoueurDean(GobeletDeBean gobelet) {
+//		super();
+//		this.gobelet = gobelet;
+//
+//	}
+
+
+
+
+
+

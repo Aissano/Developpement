@@ -1,0 +1,6 @@
+package testservice;
+
+public class MessageBDD {
+String user;
+string messade;
+}

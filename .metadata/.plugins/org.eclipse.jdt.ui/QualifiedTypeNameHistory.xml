@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.ForegroundAction"/>
+<fullyQualifiedTypeName name="java.io.CharConversionException"/>
+<fullyQualifiedTypeName name="org.xml.sax.SAXNotSupportedException"/>
+<fullyQualifiedTypeName name="bobo.Exo"/>
+<fullyQualifiedTypeName name="javax.swing.text.TabableView"/>
+<fullyQualifiedTypeName name="bobo.ArrarUtils"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="javax.management.remote.TargetedNotification"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="bobo.Maison"/>
+<fullyQualifiedTypeName name="bobo.ExoMaison"/>
+<fullyQualifiedTypeName name="bobo.Depart"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.PUBLIC_MEMBER"/>
+<fullyQualifiedTypeName name="bobo.De"/>
+<fullyQualifiedTypeName name="bobo.Debeen"/>
+<fullyQualifiedTypeName name="javax.annotation.processing.ProcessingEnvironment"/>
+<fullyQualifiedTypeName name="bobo.GobeletBean"/>
+<fullyQualifiedTypeName name="bobo.JoueurDean"/>
+<fullyQualifiedTypeName name="bobo.Controleur"/>
+<fullyQualifiedTypeName name="bobo.PartieDebean"/>
+<fullyQualifiedTypeName name="java.lang.Boolean"/>
+<fullyQualifiedTypeName name="bobo.DeBean"/>
+<fullyQualifiedTypeName name="bobo.DePipe"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.PRIVATE_MEMBER"/>
+<fullyQualifiedTypeName name="java.security.ProtectionDomain"/>
+<fullyQualifiedTypeName name="Maison"/>
+<fullyQualifiedTypeName name="java.beans.Statement"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="bobo1.JoueurBean"/>
+<fullyQualifiedTypeName name="bobo1.Debean"/>
+<fullyQualifiedTypeName name="java.beans.beancontext.BeanContext"/>
+<fullyQualifiedTypeName name="javax.ws.rs.GET"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="com.google.gson.Gson"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.Response"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Path"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.google.gson.reflect.TypeToken"/>
+<fullyQualifiedTypeName name="org.apache.catalina.User"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="testservice.MessageBean"/>
+<fullyQualifiedTypeName name="testservice.MessageBDD"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,35 @@
+package bobo;
+
+import java.util.Random;
+
+public class ExoMaison {
+
+
+	public int largeur = 20;
+	public int longueur = 10;
+
+	/*public class Maison {
+		public int largeur ;
+		public int longueur ;
+	}
+	public static void print Maison(maison m ) {
+
+		System.out.println("La maison : " + largeur  +longueur");
+
+	}
+	 */
+}
+public class oMaison {
+
+	public static void createMAISON(maison[] tab) {
+
+	}
+	 
+}
+
+/*int surface = maison.largeur * maison.longueur;
+ *
+ * for (int i = 0; i < tab.length; i++) {
+			tab[i] = new Random().nextInt(100);// Chiffre Aléatoire de 0 à 99
+
+		}*/

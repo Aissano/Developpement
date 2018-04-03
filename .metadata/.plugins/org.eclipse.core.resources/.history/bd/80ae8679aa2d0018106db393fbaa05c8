@@ -1,0 +1,22 @@
+package bobo;
+
+public class ExoMaison {
+	/** Affiche la largeur, longueur couleur de la maison */
+	public static void printMaison(Maison m) {
+		System.out.println(m.largeur+":"+m);
+	}
+	/** Double les tailles de la maison*/
+	public static void doubleMaison(Maison m) {
+
+	}
+
+	/** Retourne la maison la plus grande*/
+	public static void Maison big(Maison m1, Maison m2); {
+		
+	}
+	}
+
+
+
+
+

@@ -1,0 +1,7 @@
+package ExoSQL;
+
+public class TestSQL {
+	public class ConnexionJDBC {
+		protected static String URL = "jdbc:mysql://localhost:3306/SQLite3";
+	}
+}

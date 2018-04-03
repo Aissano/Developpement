@@ -1,0 +1,24 @@
+package bobo;
+
+public class JoueurDean {
+	private String prenom;
+	private int scorepartie;
+	private GobeletDeBean scorepartie;
+
+
+}
+
+
+
+
+
+}
+
+
+
+
+}
+
+
+
+

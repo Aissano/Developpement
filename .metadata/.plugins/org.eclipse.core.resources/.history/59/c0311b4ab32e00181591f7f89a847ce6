@@ -1,0 +1,20 @@
+package bobo;
+
+import java.util.Random;
+
+public class DePipe extends De {
+	public DePipe(int value)
+	{
+		super(value);// TODO Auto-generated constructor stub
+	}
+	@Override
+	public void lancer (){
+
+		super.value  = 0;
+
+
+		value = new Random().nextInt(6)+1;
+
+
+	}
+}

@@ -1,0 +1,14 @@
+package testservice;
+
+public class MessageBean {
+
+	// public static final ArrayList<MessageBean> message = new ArrayList();
+	private String user;
+	private String message;
+
+	public MessageBean(String user, String message) {
+		this.user = user;
+		this.message = message;
+	}
+
+}

@@ -1,0 +1,10 @@
+package bobo;
+
+public class ExoMaison {
+	/** Affiche la largeur, longueur couleur de la maison */
+	public static void printMaison(Maison m) {
+		System.out.println(m.largeur+":"+m.longueur);
+	}
+}
+
+

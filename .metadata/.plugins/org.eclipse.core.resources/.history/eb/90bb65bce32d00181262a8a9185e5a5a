@@ -1,0 +1,7 @@
+package bobo;
+
+public class Controleur {
+	public static void main(String[] args) {
+		lancer();
+	}
+}

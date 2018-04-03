@@ -1,0 +1,39 @@
+package testservice;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+
+import com.google.gson.Gson;
+import com.google.gson.JsonElement;
+
+@Path("/MonService")
+public class TestService {
+	private static final JsonElement result = null;
+	// Création de l'objet
+	private Gson gson = new Gson();
+
+	@Path("/helloWorld")
+	@GET
+	@Produces(MediaType.TEXT_PLAIN)
+
+	/* http://localhost:8080/Nolan/rest/MonService/helloWorld */
+	public String hello() {
+		System.out.println("HellowWorld !!");
+		return "HelloWorld";
+	}
+
+	@Path("/helloWorldJson")
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public Response getEleve() {
+		Eleve eleve = new Eleve("bobo");
+		eleve.note= 15;
+		eleve.id=03192620;
+		Gson gson = new Gson();
+		return Response.status(200).entity(gson.toJson(eleve)).build();
+	}
+
+}

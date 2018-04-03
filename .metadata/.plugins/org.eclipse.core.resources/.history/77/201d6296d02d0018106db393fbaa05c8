@@ -1,0 +1,10 @@
+package bobo;
+
+public class JoueurDean {
+	private JoueurDean prenom;
+
+
+
+}
+
+

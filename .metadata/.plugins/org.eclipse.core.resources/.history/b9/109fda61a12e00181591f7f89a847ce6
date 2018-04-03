@@ -1,0 +1,9 @@
+package bobo;
+
+public class DePipe extends DeBean {
+
+	public DePipe()
+	
+	{
+}
+}

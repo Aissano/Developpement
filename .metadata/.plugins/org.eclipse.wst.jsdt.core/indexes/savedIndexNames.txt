@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+C:\Users\JAVA\Documents\workspace bobo\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3643362479.index
+3220472058.index
+1397386750.index
+2888112711.index
+43907205.index
+3100262423.index

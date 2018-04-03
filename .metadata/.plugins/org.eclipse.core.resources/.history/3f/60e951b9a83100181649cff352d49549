@@ -1,0 +1,4 @@
+package bobo;
+
+public class Eleve {
+	public class ExoEleve {}

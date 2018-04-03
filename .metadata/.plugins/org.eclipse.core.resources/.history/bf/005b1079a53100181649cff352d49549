@@ -1,0 +1,19 @@
+package testservice;
+
+import java.util.ArrayList;
+
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+public class VilleBean {
+
+	// Création de l'objet
+	private Gson gson = new Gson();
+	// Java -> Json
+	String jsonResult = gson.toJson(result);
+	// JSON -> Java (Parser 1 objet)
+	VilleBean result = gson.fromJson(monStringJson, VilleBean.class);
+	// JSON -> Java (Parser une ArrayList typée)
+	ArrayList<VilleBean> list = gson.fromJson((String | InputStreamReader), new TypeToken<ArrayList<VilleBean>>() {
+	}.getType());
+}

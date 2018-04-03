@@ -1,0 +1,19 @@
+package testservice;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import com.google.gson.Gson;
+
+public class TchatService {
+	Gson gson = new Gson();
+	@Path("/helloWorldJson")
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public static void getMessages(MessageBean message) {
+
+	}
+
+}

@@ -1,0 +1,43 @@
+package bobo;
+
+import java.security.ProtectionDomain;
+import java.util.Random;
+
+import org.omg.CORBA.PRIVATE_MEMBER;
+
+public class De {
+
+
+	public De(int value) {
+		private in value;
+	
+
+		this.value = value;
+	}
+
+	protected int value;
+	public int getvalue() {
+		return value;
+
+	}
+	public void setvalue(int value) {
+		this.value = value;
+
+	}
+
+	public void lancer (){
+
+		value = 0;
+
+
+		value = new Random().nextInt(6)+1;
+
+	}
+
+}
+
+
+
+
+
+

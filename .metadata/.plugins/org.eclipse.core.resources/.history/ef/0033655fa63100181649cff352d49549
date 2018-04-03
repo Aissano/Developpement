@@ -1,0 +1,26 @@
+package testservice;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import com.google.gson.Gson;
+
+@Path("/MonService")
+public class TestService {
+	// Création de l'objet
+	private Gson gson = new Gson();
+	// Java -> Json
+	String jsonResult = gson.toJson(result);
+
+	@Path("/helloWorld")
+	@GET
+	@Produces(MediaType.TEXT_PLAIN)
+	/* http://localhost:8080/Nolan/rest/MonService/helloWorld */
+	public String hello() {
+		System.out.println("HellowWorld !!");
+		return "HelloWorld";
+	}
+
+}

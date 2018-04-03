@@ -1,0 +1,6 @@
+package testservice;
+
+public class TchatService {
+	public static void getMessages(MessageBean message) {
+
+}}

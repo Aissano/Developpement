@@ -1,0 +1,6 @@
+import java.util.ArrayList;
+
+public class MaisonBean {
+	ArrayListrrayList<MaisonBean> maisonArraylist = new ArrayList<>();
+	
+}

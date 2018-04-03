@@ -1,0 +1,26 @@
+package bobo1;
+
+import bobo.JoueurDean;
+
+public class PartieBean2 {
+
+	public static final int NBR_TOUR = 10;
+
+	public static final int SCORE_A_ATTEINDRE = 7*3;
+	private JoueurBean j1, j2;
+	private int TourEncours;
+	private JoueurBean joueurActif;
+
+	public public PartieBean2() {
+		// TODO Auto-generated constructor stub
+		PartieBean2(String nom,String nom2) {
+			j1 = new JoueurDean(nom);
+			j2 = new JoueurDean(nom2);
+			tourEncours = 1;
+		}
+
+	}
+
+
+
+

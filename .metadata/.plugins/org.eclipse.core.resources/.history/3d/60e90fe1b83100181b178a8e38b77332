@@ -1,0 +1,11 @@
+package testservice;
+
+import java.util.ArrayList;
+
+import javax.ws.rs.GET;
+
+public class MessageBDD {
+	static ArrayList<MessageBean> maListe = new ArrayList<MessageBean>();
+	static GET
+	
+}

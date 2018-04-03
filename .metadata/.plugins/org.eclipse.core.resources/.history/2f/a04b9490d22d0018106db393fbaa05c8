@@ -1,0 +1,34 @@
+package bobo;
+
+public class JoueurDean {
+	private JoueurDean prenom, Scorepartie,gobelet;
+
+
+}
+
+public GobeletBean() {
+
+	prenom = new DeBean();
+	Scorepartie = new DeBean();
+	gobelet =new DeBean();
+}
+
+public JoueurDean(JoueurDean prenom, JoueurDean scorepartie, JoueurDean gobelet) {
+	super();
+	this.prenom = prenom;
+	Scorepartie = scorepartie;
+	this.gobelet = gobelet;
+
+
+
+
+}
+
+
+
+
+}
+
+
+
+

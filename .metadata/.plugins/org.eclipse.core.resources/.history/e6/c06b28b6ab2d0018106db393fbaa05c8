@@ -1,0 +1,19 @@
+package bobo;
+
+public class Maison {
+
+	public int largeur = 20;
+	public int longueur = 10;
+	public String  couleur= null;
+
+
+
+	public static void doubleMaison(Maison m) {
+		m.largeur *= 2;
+		m.longueur *= 2;
+	}
+	public static void Maison big(Maison m1, Maison m2); {
+		
+		
+	}
+}

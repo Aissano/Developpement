@@ -1,0 +1,47 @@
+package bobo1;
+
+import bobo.DeBean;
+
+public class GobeletBean {
+
+	Debean d1;
+	private DeBean d2;
+
+	public GobeletBean() {
+
+		d1 = new DeBean();
+		d2 = new DeBean();
+
+	}
+
+	public DeBean getD1() {
+		return d1;
+	}
+
+	public void setD1(Debean d1) {
+		this.d1 = d1;
+	}
+
+	public DeBean getD2() {
+		return d2;
+	}
+	public void lancer (){
+		d1.lancer();
+		d2.lancer();
+
+	}
+
+	public void setD2(Debean d2) {
+		this.d2 = d2;
+
+	}
+
+
+	public int getScore() {
+		return d1.getvalue()+d2.getvalue();
+	}
+
+
+}
+
+}

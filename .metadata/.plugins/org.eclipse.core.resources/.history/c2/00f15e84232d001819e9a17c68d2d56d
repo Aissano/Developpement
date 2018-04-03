@@ -1,0 +1,52 @@
+package bobo;
+
+public class ExoMaison {
+	
+        if (tab == null) {
+            return null;
+        }
+        Maison maisonMax = null;
+        for (int i = 0; i < tab.length; i++) {
+            if (maisonMax == null) {
+                maisonMax = tab[i];
+            }
+            // Action
+            else if (tab[i].largeur * tab[i].longueur > maisonMax.largeur * maisonMax.longueur) {
+                maisonMax = tab[i];
+            }
+        }
+        return maisonMax;
+    }
+ 
+    public static void printMaison(Maison m) {
+        if (m == null) {
+            System.out.println("La maison est nulle");
+        } else {
+            System.out.println("La maison : " + m.largeur + "x" + m.longueur);
+        }
+    }
+ 
+    public static void doubleMaison(Maison m) {
+        m.largeur *= 2;
+        m.longueur *= 2;
+ 
+    }
+ 
+    public static Maison bigMaison(Maison m1, Maison m2) {
+        if (m1 == null && m2 == null) {
+            return null;
+        } else if (m1 == null) {
+            return m2;
+        } else if (m2 == null) {
+            return m1;
+        } else if (m1.largeur * m1.longueur > m2.largeur * m2.longueur) {
+            return m1;
+        } else if (m1.largeur * m1.longueur < m2.largeur * m2.longueur) {
+            return m2;
+        }
+ 
+        return null;
+}
+
+
+

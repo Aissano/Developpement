@@ -1,0 +1,19 @@
+package bobo;
+
+public class ExoMaison {
+
+
+	public int largeur = 20;
+	public int longueur = 10;
+
+	public class Maison {
+		public int largeur ;
+		public int longueur ;
+	}
+	public static void main(String[] maison m ) {
+
+		System.out.println("La maison : " + m.largeur  + m.longueur");
+
+	}
+
+}

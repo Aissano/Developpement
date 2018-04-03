@@ -1,0 +1,70 @@
+package ExoSQL;
+
+
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+
+
+public class ExoSQL {
+
+	public static String URL = "jdbc:sqlite:C:/Users/JAVA/Documents/SQLiteStudio/maBase";
+	private final static String QUERY_SAVE_ELEVES = "INSERT INTO Eleve (prenom, note) VALUES (?, ?);";
+	private final static String QUERY_FIND_ELEVES = "SELECT * FROM eleve ";
+
+	public static void main(String[] args) {
+		EleveBean eleveBean = new EleveBean();
+		eleveBean.setNote(12);
+		eleveBean.setPrenom("Toto");
+
+		ajouterEleve(eleveBean);
+
+		ArrayList<EleveBean> eleveBeans = getEleves();
+		for (EleveBean e : eleveBeans) {
+			System.out.println(e);
+		}
+
+	}
+
+	public static void ajouterEleve(EleveBean eleve) {
+		//TODO Ajout de l'élève en base
+		Connection con = null;
+		PreparedStatement stmt = null;
+		try {
+			con = DriverManager.getConnection(URL); // La connexion
+			stmt = con.prepareStatement(QUERY_SAVE_ELEVES);
+			// Remplir la requête
+			stmt.setString(1, eleve.getPrenom());
+			stmt.setInt(2, eleve.getNote());
+			// Lancer la requête
+			stmt.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			// On ferme la connexion
+			if (con != null) {
+				try {
+					con.close();
+				} catch (final SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+
+	}
+
+	public static ArrayList<EleveBean> getEleves() {
+		ArrayList<EleveBean> eleveBeans = new ArrayList<>();
+		//TODO Récupérer la liste des élèves dans la base
+	
+
+
+
+
+			return eleveBeans;
+		}
+	}
